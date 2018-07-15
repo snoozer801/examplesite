@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Item Addition</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<script type="application/x-javascript">
+addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+function hideURLbar(){
+	window.scrollTo(0,1);
+};
+</script>
+</head>
+<body>
+	<h1>Add Item</h1>
+	<!-- main -->
+	<div class="main">
+		<!--login-profile-->
+		<!--signin-form-->
+		<div class="w3">
+			<div class="signin-form profile">
+
+				<h3>New Quest</h3>
+
+				<div class="login-form">
+					<form action="/admin/items" method="post">
+						<input type="text" name="itemName" placeholder="Item Name" required=""/>
+						<input type="text" name="itemType" placeholder="Item Type" required=""/>
+						<input type="text" name="constitution" placeholder="Constitution" required=""/>
+            <input type="text" name="fortitude" placeholder="Fortitude" required=""/>
+            <input type="text" name="strength" placeholder="Strength" required=""/>
+						<input type="text" name="agility" placeholder="Agility" required=""/>
+						<input type="text" name="intelligence" placeholder="Intelligence" required=""/>
+            <input type="text" name="willpower" placeholder="Willpower" required=""/>
+						<input type="text" name="spirit" placeholder="Spirit" required=""/>
+            <input type="text" name="bonusHealth" placeholder="Bonus Health" required=""/>
+            <input type="text" name="bonusPower" placeholder="Bonus Power" required=""/>
+            <input type="text" name="bonusPhysical" placeholder="Bonus Physical" required=""/>
+						<input type="text" name="bonusMagical" placeholder="Bonus Magical" required=""/>
+            <input type="text" name="mitigation" placeholder="Mitigation" required=""/>
+            <input type="text" name="effectiveness" placeholder="Effectiveness" required=""/>
+            <input type="text" name="critChance" placeholder="Crit Chance" required=""/>
+						<input type="text" name="spellStrike" placeholder="Spellstrike" required=""/>
+						<input type="submit" value="INSERT">
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<!--//signin-form-->
+	</div>
+</body>
+</html>

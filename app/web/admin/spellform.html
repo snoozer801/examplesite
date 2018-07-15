@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Item Addition</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<script type="application/x-javascript">
+addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+function hideURLbar(){
+	window.scrollTo(0,1);
+};
+</script>
+</head>
+<body>
+	<h1>Add Item</h1>
+	<!-- main -->
+	<div class="main">
+		<!--login-profile-->
+		<!--signin-form-->
+		<div class="w3">
+			<div class="signin-form profile">
+
+				<h3>New Quest</h3>
+
+				<div class="login-form">
+					<form action="/admin/spells" method="post">
+						<input type="text" name="spellName" placeholder="Spell Name" required=""/>
+						<input type="text" name="tooltip" placeholder="Tooltip" required="">
+            <input type="text" name="baseDamage" placeholder="Base Damage" required="">
+            <input type="text" name="graphic" placeholder="Graphic" required="">
+						<input type="text" name="castTime" placeholder="Cast Time" required="">
+						<input type="text" name="powerCost" placeholder="Power Cost" required="">
+            <input type="text" name="range" placeholder="Range" required=""/>
+						<input type="text" name="spellType" placeholder="Spell Type" required="">
+            <input type="text" name="spellSchool" placeholder="Spell School" required="">
+            <input type="text" name="targetType" placeholder="Target Type" required="">
+						<input type="submit" value="INSERT">
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<!--//signin-form-->
+	</div>
+</body>
+</html>

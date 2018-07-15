@@ -1,0 +1,5 @@
+﻿{
+    "connectionString": "mongodb://snoozer801:knuckles801@ds151955.mlab.com:51955/rpg",
+    "apiUrl": "http://delet.me:8080",
+    "secret": "succ"
+}

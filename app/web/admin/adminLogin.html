@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admin Login</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<script type="application/x-javascript">
+
+addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+
+function hideURLbar(){
+	window.scrollTo(0,1);
+};
+
+function forceLower(strInput) {
+	strInput.value=strInput.value.toLowerCase();
+};
+
+</script>
+
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href='//fonts.googleapis.com/css?family=Jura:400,300,500,600' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+	<h1>Admin</h1>
+				<h3>Login</h3>
+
+				<div class="login-form">
+					<form action="/admin" method="post" name>
+							<input type="text" name="adminLogEmail" id="lcasetext" onkeyup="return forceLower(this);" placeholder="Username" required=""/>
+							<input type="password" name="adminLogPassword" placeholder="Password" required=""/>
+								<input type="submit" value="LOGIN NOW">
+					</form>
+				</div>
+
+<div class="clear"></div>
+<!--//signin-form-->
+
+</body>
+</html>

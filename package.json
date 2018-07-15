@@ -1,0 +1,30 @@
+{
+  "name": "ExampleSite",
+  "version": "1.0.1",
+  "description": "HTTP Server and Web Pages for Co-op RPG",
+  "main": "server.js",
+  "author": "Ryan Stivers, David Specht",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^2.0.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "connect-mongo": "^2.0.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.1.0",
+    "jwt": "^0.2.0",
+    "lodash": "^4.17.4",
+    "mocha": "4.0.1",
+    "mongoose": "^4.13.5",
+    "mongoskin": "^2.1.0",
+    "pm2": "^2.9.1",
+    "q": "^1.5.1",
+    "sweetalert2": "^7.0.9"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha"
+  }
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login or Register</title>
+<!--Custom Theme files-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Register Login Widget template Responsive, Login form web template,Flat Pricing tables,Flat Drop downs  Sign up Web Templates, Flat Web Templates, Login Signup Responsive web template, SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript">
+addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+function hideURLbar(){
+	window.scrollTo(0,1);
+};
+function forceLower(strInput) {
+	strInput.value=strInput.value.toLowerCase();
+};
+</script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!--web-fonts-->
+<link href='//fonts.googleapis.com/css?family=Jura:400,300,500,600' rel='stylesheet' type='text/css'>
+<!--//web-fonts-->
+</head>
+<body>
+	<h1>Login or Register </h1>
+
+				<h3>Login</h3>
+
+				<div class="login-form">
+					<form action="/accounts" method="post" name="loginForm">
+						<div>
+							<input type="text" name="logusername" placeholder="Username" required=""/>
+						</div>
+						<div>
+							<input type="password" name="logpassword" placeholder="Password" required="">
+						</div>
+						<div>
+							<input type="submit" value="LOGIN">
+						</div>
+					</form>
+				</div>
+
+				<h3>Register</h3>
+
+				<div class="login-form">
+					<form action="/accounts" method="post">
+						<div>
+							<input type="text" id="lcasetext" onkeyup="return forceLower(this);" name="email" placeholder="E-mail" required=""/>
+						</div>
+						<div>
+							<input type="text" name="username" placeholder="Username" required="">
+						</div>
+						<div>
+							<input type="text" name="firstname" placeholder="First Name" required="">
+						</div>
+						<div>
+							<input type="text" name="lastname" placeholder="Last Name" required="">
+						</div>
+						<div>
+							<input type="password" name="password" placeholder="Password" required="">
+						</div>
+						<div>
+							<input type="password" name="passwordConf" placeholder="Confirm Password" required="">
+						</div>
+						<div>
+							<input type="submit" value="REGISTER">
+						</div>
+					</form>
+				</div>
+
+
+		<div class="clear"></div>
+		<!--//signin-form-->
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quest Addition</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<script type="application/x-javascript">
+addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+function hideURLbar(){
+	window.scrollTo(0,1);
+};
+</script>
+</head>
+<body>
+	<h1>Add Quest</h1>
+	<!-- main -->
+	<div class="main">
+		<!--login-profile-->
+		<!--signin-form-->
+		<div class="w3">
+			<div class="signin-form profile">
+
+				<h3>New Quest</h3>
+
+				<div class="login-form">
+					<form action="/admin/quests" method="post">
+						<input type="text" name="entryName" placeholder="Quest Name" required=""/>
+						<input type="text" name="journalType" placeholder="Journal Type" required="">
+            <input type="text" name="journalText" placeholder="Journal Text" required="">
+            <input type="text" name="journalLore" placeholder="Journal Lore" required="">
+						<input type="text" name="journalCompleteLore" placeholder="Journal Complete Lore" required="">
+						<input type="text" name="progressValue" placeholder="Progress Value" required="">
+						<input type="submit" value="INSERT">
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<!--//signin-form-->
+	</div>
+</body>
+</html>
